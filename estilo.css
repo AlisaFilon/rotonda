@@ -1,0 +1,12 @@
+#rotateImg {
+    animation: 1s myRotate infinite linear paused;
+}
+
+@keyframes myRotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
